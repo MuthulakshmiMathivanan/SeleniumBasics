@@ -25,8 +25,8 @@ public class BankBillPayment {
         driver.manage().window().maximize();
         WebElement username = driver.findElement(By.xpath("//input[@name='username']"));
         WebElement password = driver.findElement(By.xpath("//input[@name='password']"));
-        username.sendKeys("muthu3");
-        password.sendKeys("muthu3");
+        username.sendKeys("muthu6");
+        password.sendKeys("muthu6");
         WebElement loginButton = driver.findElement(By.xpath("//input[@class='button']"));
         loginButton.click();
         WebElement element = driver.findElement(By.xpath("//a[text()='Bill Pay']"));
